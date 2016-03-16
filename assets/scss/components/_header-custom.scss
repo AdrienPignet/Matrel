@@ -1,0 +1,88 @@
+header{
+    padding: 20px 0;
+    vertical-align: bottom;
+    .logo{
+        vertical-align: bottom;
+        padding: 0;
+        img{
+            width: 145px;
+            height: auto;
+        }
+    }
+    .baseline{
+        text-align: center;
+        vertical-align: bottom;
+        padding: 0;
+        h2{
+            font-size: 15px;
+            font-family: $montserra;
+            font-weight: 700;
+
+        }
+    }
+    .menu-custom{
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        span{
+            float: right;
+            p{
+                display: inline-block;
+                margin-right: 10px;
+                font-family: $opensans;
+                font-size: 12px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+            i{
+                display: inline-block;
+                font-size: 24px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+.ariane-bg{
+    background: $very-light-grey;
+    padding: 40px 0;
+    .ariane{
+        padding: 0;
+        vertical-align: middle;
+        .ariane-custom{
+            padding: 0;
+            vertical-align: middle;
+            ul{
+                margin: 0;
+                li{
+                    display: inline-block;
+                    a{
+                        font-family: $opensans;
+                        font-size: 17px;
+                        text-decoration: none;
+                        color: $dark-grey;
+                        transition: 0.4s ease all;
+                        &:hover{
+                            color: $orange;
+                            transition: 0.4s ease all;
+                        }
+                    }
+                    &.active{
+                        a{
+                            color: $orange;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+        .selector-custom{
+            padding: 0;
+            vertical-align: middle;
+            select{
+                border: 1px solid $dark-grey;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,76 @@
+@media screen and (max-width: 960px){
+
+    .row{
+        padding: 0 20px !important;
+    }
+    // retouche header
+
+    // retouche ariane
+    .ariane-bg{
+        padding: 20px 0;
+        margin-bottom: 20px;
+        .ariane{
+            .ariane-custom{
+                ul{
+                    li{
+                        a{
+                        font-size: 12px;
+                        }
+                    }
+                }
+                margin-bottom: 20px;
+            }
+        }
+    }
+    // retouche produit
+    #page{
+        .produit{
+            .produit-img{
+                padding: 0 0 0 0;
+                margin: 0;
+            }
+            .boutons{
+                padding: 0 !important;
+                .contact{
+                    padding: 0;
+                    a{
+                        margin: 20px 0 10px 0;
+                        width: 100%;
+                    }
+                }
+                .pdf{
+                    padding: 0;
+                    a{
+                        margin: 10px 0;
+                        width: 100%;
+                    }
+                }
+            }
+            .carac{
+                margin-top: 20px;
+            }
+        }
+    }
+    // retouche similaire
+    .similaire{
+        margin-top: 20px;
+        .products{
+            div{
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    // retouche footer
+    footer{
+        .bigfoot{
+            .legals{
+                text-align: left;
+                padding: 0;
+                ul{
+                    margin: 0 0 0 10px;
+                }
+            }
+        }
+    }
+}
